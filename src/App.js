@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import MetaTags from 'react-meta-tags';
-import {Helmet} from "react-helmet";
 
 function App() {
   return (
