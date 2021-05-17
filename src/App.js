@@ -6,10 +6,10 @@ function App() {
   return (
     <>
       <MetaTags>
-        {/* <title>Page 1</title> */}
+        <title>Page 1</title>
         <meta name="description" content="Some description." />
         <meta property="og:description" content="Some description." />
-        <meta property="og:title" content="MyApp" />
+        <meta property="og:title" content={`Buscamos MyApp`} />
         <meta property="og:image" content="src/images/sumate_a_nuestro_equipo.jpg" />
       </MetaTags>
       {/* <Helmet>
