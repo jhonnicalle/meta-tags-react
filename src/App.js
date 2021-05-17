@@ -7,7 +7,7 @@ function App() {
     <>
       <MetaTags>
         <title>Page 1</title>
-        <meta name="description" content="Some description." />
+        {/* <meta name="description" content="Some description." /> */}
         <meta property="og:url" name="url" content={`https://jhonnicalle.github.io/meta-tags-react/`} />
         <meta property="og:description" content="Some description." />
         <meta property="og:title" content={`Buscamos MyApp`} />
