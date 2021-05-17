@@ -9,8 +9,10 @@ function App() {
         {/* <title>Page 1</title> */}
         {/* <meta name="description" content="Some description." /> */}
         <meta property="og:url" content={`https://jhonnicalle.github.io/meta-tags-react/`} />
+        <meta property="og:type" content="website" />
         <meta property="og:description" content="Buscamos MyApp" />
         <meta property="og:title" content="Buscamos MyApp" />
+        
         <meta property="og:image" content="src/images/sumate_a_nuestro_equipo.jpg" />
       </MetaTags>
       {/* <Helmet>
