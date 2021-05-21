@@ -10,19 +10,19 @@ function App() {
       <Helmet>
           {/* <meta charSet="utf-8" />
           <title>My Title</title> */}
-          {/* <meta name="description" content="Helmet application" />
+          {/* <meta name="description" content="Helmet application" /> */}
           <meta property="og:url" content="https://rrhh.balanz.com/aplicar/33" />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Buscamos Desarrollador iOS" />
           <meta property="og:description" content="Entre sus principales responsabilidades se" />
           <meta property="og:image" content="https://crm.balanz.com/aSDFQVCAwwe.jpg" />
           
-          <link rel="canonical" href="http://mysite.com/example" /> */}
+          <link rel="canonical" href="http://mysite.com/example" />
 
-          <meta property="og:title" content={'Hola'} />
+          {/* <meta property="og:title" content={'Hola'} />
           <meta property="og:type" content={'website'} />
           <meta property="og:image" content="{Your content}" />
-          <meta property="og:url" content="{Your content}" />
+          <meta property="og:url" content="{Your content}" /> */}
       </Helmet>
       <div className="App">
         <header className="App-header">
