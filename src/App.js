@@ -7,15 +7,6 @@ import NewPage from './components/NewPage/NewPage';
 function App() {
   return (
     <>
-      {/* <MetaTags>
-        
-        <meta property="og:url" content={`https://jhonnicalle.github.io/meta-tags-react/`} />
-        <meta property="og:type" content="website" />
-        <meta property="og:description" content="Buscamos MyApp" />
-        <meta property="og:title" content="Buscamos MyApp" />
-        
-        <meta property="og:image" content="src/images/sumate_a_nuestro_equipo.jpg" />
-      </MetaTags> */}
       <Helmet>
           <meta charSet="utf-8" />
           <title>My Title</title>
